@@ -1,6 +1,3 @@
-### Create Operation
-
-**Python Command:**
 
 ```python
 from bookshelf.models import Book
