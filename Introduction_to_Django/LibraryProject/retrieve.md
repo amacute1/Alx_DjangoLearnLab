@@ -1,11 +1,4 @@
-### Retrieve Operation
-
-**Python Command:**
-
-```python
 from bookshelf.models import Book
-retrieved_book = Book.objects.get(title="1984")
-print(f"Title: {retrieved_book.title}")
-print(f"Author: {retrieved_book.author}")
-print(f"Publication Year: {retrieved_book.publication_year}")
-print(f"ID: {retrieved_book.id}")
+book = Book.objects.get(id=1)
+print(book.title, book.author, book.publication_year)
+# Output: 1984 George Orwell 1949
